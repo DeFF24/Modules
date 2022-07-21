@@ -46,12 +46,12 @@ public class Main {
         System.out.println("Practice 7, Task 1:");
         Strings.task1();
         System.out.println("Practice 7, Task 2:");
-        System.out.println(Strings.task2("Test String", "ing"));
+        System.out.println(Strings.endWithString("Test String", "ing"));
         System.out.println("Practice 7, Task 3:");
-        System.out.println(Strings.task3("Test String", "Str"));
+        System.out.println(Strings.stringContainsSubstring("Test String", "Str"));
         System.out.println("Practice 7, Task 4:");
-        System.out.println(Strings.task4("Test String", "str"));
+        System.out.println(Strings.stringContainsSubstringNoCase("Test String", "str"));
         System.out.println("Practice 7, Task 5:");
-        System.out.println(Strings.task5("Test String", "Test"));
+        System.out.println(Strings.startWithString("Test String", "Test"));
     }
 }
