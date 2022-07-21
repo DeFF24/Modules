@@ -1,7 +1,5 @@
 package main;
 
-import java.util.Scanner;
-
 import static practice3.hw1.Task1.*;
 import static practice3.hw2.Task2.*;
 import static practice3.hw3.Task3.*;
@@ -9,6 +7,7 @@ import practice4.Arrays;
 import static practice6.Task1.*;
 import practice6.Box;
 import static practice6.Task3.*;
+import practice7.Strings;
 
 public class Main {
     public static void main(String[] args) {
@@ -43,5 +42,16 @@ public class Main {
         System.out.println(box2.value);
         System.out.println("Practice 6, Task 4:");
         System.out.println(recursiveMultiplication(5, 7));
+
+        System.out.println("Practice 7, Task 1:");
+        Strings.task1();
+        System.out.println("Practice 7, Task 2:");
+        System.out.println(Strings.task2("Test String", "ing"));
+        System.out.println("Practice 7, Task 3:");
+        System.out.println(Strings.task3("Test String", "Str"));
+        System.out.println("Practice 7, Task 4:");
+        System.out.println(Strings.task4("Test String", "str"));
+        System.out.println("Practice 7, Task 5:");
+        System.out.println(Strings.task5("Test String", "Test"));
     }
 }
